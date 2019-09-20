@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MasGlobalTest.UI.Models.EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h2>Employees</h2>
+
+<div>
+    @Html.Partial("EmployeeList", Model)
+</div>
+
